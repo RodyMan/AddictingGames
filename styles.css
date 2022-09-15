@@ -28,6 +28,7 @@ iframe{
 	border: none;
 	transition: background-color,border-radius,border 0.75s ease-in-out;
 	transition: color 0.30s ease-in-out;
+    z-index: 2;
 }
 .Back:hover{
 	background-color:red;

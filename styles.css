@@ -17,10 +17,10 @@ iframe{
 }
 .Back{
 	position: relative;
-	padding:1rem 2rem;
-	right: 40rem;
-	bottom: 1px;
-	border-radius: 1rem;
+	padding:3rem 1rem;
+	right: -15rem;
+	bottom: -5px;
+	border-radius: 5rem;
 	background-color:white;
 	outline: none;
 	font-size: medium;
@@ -29,6 +29,7 @@ iframe{
 	transition: background-color,border-radius,border 0.75s ease-in-out;
 	transition: color 0.30s ease-in-out;
     z-index: 300;
+	opacity: 35%;
 }
 .Back:hover{
 	background-color:red;

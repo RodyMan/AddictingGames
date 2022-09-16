@@ -16,18 +16,16 @@ iframe{
     height: 100%;
 }
 div.backbox{
-	position: relative;
-	transform: translate(-50%, -50%);
+	position: absolute;
+	transform: translate(-6rem,-1740%);
 	top: 50%;
 	left: 50%;
-	width: 50rem;
-	background-color: none;
-	border-radius: 10rem;
+	border-radius: 50px;
 	z-index: 300;
 }
 .Back{
 	position: relative;
-	padding-top:1rem;
+	padding-top: 1rem;
 	padding-left: 2rem;
 	padding-right: 2rem;
 	border-radius: 10rem;
@@ -38,7 +36,7 @@ div.backbox{
 	transition: background-color,border-radius,border 0.75s ease-in-out;
 	transition: color 0.30s ease-in-out;
     z-index: 300;
-	opacity: 25%;
+	opacity: 35%;
 }
 .Back:hover{
 	background-color:red;
